@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/gettyimages-580833893.webp);
+    background-size: cover;
+}
+    .animation1 , .animation3 , .animation5 , .animation7{
+        width:150px;
+        height:100px;
+        animation-name: change1;     
+        animation-delay: 1s;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode:forwards;           
+    }
+    .animation1{
+        transform: scaleX(-1);
+    }
+    .img1{
+        width:150px;
+        height:100px;
+    }
+    @keyframes change1{
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }  
+    .animation2 , .animation4 , .animation6 , .animation8{
+        margin-left: auto;   
+        width:150px;
+        height:100px;
+        animation-name: change2; 
+        animation-delay: 4s;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards; 
+        
+    }
+    @keyframes change2 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    } 
+    .animation3 {
+        animation-name: change3; 
+        animation-delay: 8s;
+        transform: scaleX(-1);
+    }
+    @keyframes change3 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }
+    .animation4 {   
+        animation-name: change4; 
+        animation-delay: 10s;    
+    }
+    @keyframes change4 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }
+    .animation5 {
+        animation-name: change5;  
+        animation-delay: 12s;
+        animation-duration: 3s;
+        transform: scaleX(-1);
+    }
+    @keyframes change5 {
+        00%{width: 150px;}
+        100%{width: 100%;}
+    }
+    .animation6 {   
+        animation-name: change6;
+        animation-delay: 14s;
+    }
+    @keyframes change6 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }
+    .animation7 {
+        animation-name: change7;
+        animation-delay: 16s;
+        animation-duration: 3s;
+        transform: scaleX(-1);
+    }
+    @keyframes change7 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }
+    .animation8 {  
+        animation-name: change8;
+        animation-delay: 18s;
+    }
+    @keyframes change8 {
+        0%{width: 150px;}
+        100%{width: 100%;}
+    }
